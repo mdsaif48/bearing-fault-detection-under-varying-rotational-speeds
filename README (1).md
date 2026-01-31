@@ -26,7 +26,7 @@ A Random Forest classifier trained to distinguish between healthy and faulty bea
 Classification performance evaluated using hold-out validation and confusion-based metrics.
 
 # SPECTROGRAM :
-![image alt]([https://github.com/mdsaif48/bearing-fault-detection-under-varying-rotational-speeds/blob/2d6d7749e5e39d4edd6088262bf78d394f64aeaa/pipeline/workflow.png](https://github.com/mdsaif48/bearing-fault-detection-under-varying-rotational-speeds/blob/4908d5dcb4007c68f56523096894f16e4274f6b6/pipeline/spectogram.png))
+![image alt](https://github.com/mdsaif48/bearing-fault-detection-under-varying-rotational-speeds/blob/4908d5dcb4007c68f56523096894f16e4274f6b6/pipeline/spectogram.png)
 
 
 
