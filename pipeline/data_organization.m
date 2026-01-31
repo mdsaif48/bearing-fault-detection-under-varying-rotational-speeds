@@ -4,13 +4,9 @@ dataStruct = struct();
 for k = 1:numFiles
     fullPath = fullfile(dataDir, files(k).name);
     temp = load(fullPath);
-    
-    % Store signals
     dataStruct(k).filename = files(k).name;
     dataStruct(k).vibration = temp.Channel_1;
     dataStruct(k).speed     = temp.Channel_2;
-    
-    % Assign health labels from filename
     if contains(files(k).name, 'H')
         dataStruct(k).health = 'Healthy';
     elseif contains(files(k).name, 'I')  % Inner race
@@ -22,4 +18,4 @@ for k = 1:numFiles
     end
 end
 
-disp({dataStruct.filename; dataStruct.health}')  % Quick check
+disp({dataStruct.filename; dataStruct.health}')
