@@ -5,6 +5,8 @@
 This project focuses on condition monitoring of rolling element bearings using vibration signal analysis. Time-domain vibration signals are processed and analyzed to extract statistical features, which are then used to classify bearing health conditions such as healthy, inner race fault, and outer race fault using machine learning techniques.
 
 The work emphasizes signal processing and fault diagnosis, not full predictive maintenance deployment.
+# WORKFLOW 
+https://github.com/mdsaif48/bearing-fault-detection-under-varying-rotational-speeds/blob/2d6d7749e5e39d4edd6088262bf78d394f64aeaa/pipeline/workflow.png
 
 
 # Method overview :
