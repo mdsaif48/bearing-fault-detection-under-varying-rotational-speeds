@@ -1,4 +1,4 @@
-for k = 1:numFiles
+for k = 1:numFiles %error
     sig = dataStruct(k).vibrationFiltered;
     dataStruct(k).RMS   = rms(sig);
     dataStruct(k).STD   = std(sig);
